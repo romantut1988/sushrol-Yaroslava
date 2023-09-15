@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none
+}
+.navbar {
+    background-color: #778899;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFA500;
+    margin-left: 30px;
+}
+.menu-btn {
+    background-color: white;
+}
+.navbar-nav {
+    margin-left: 30px;
+}
+.navbar-toggler {
+    font-size: 1.5em;
+}
+.navbar-toggler-icon {
+    height: 1em;
+   color: #FFA500;
+}
+.navbar-brand:hover {
+  color: #FFA500;
+  opacity: 0.7;
+}
+
+.nav-item .nav-link {
+    color: #C0C0C0;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.nav-item .nav-link:hover {
+    opacity: 0.5;
+    color: #FF4500;
+    font-weight: 900;
+}
+
+.navbar form button {
+    background-color: Orange;
+      color: white;
+      border: none;
+}
+
+.carousel-item img {
+    height: 90vh;
+}
+.favorites-cards {
+    padding: 25px 0;
+    weight: 100%;
+}
+.favorites-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    cursor: pointer;
+}
+.card:hover {
+    opacity: 0.9;
+}
+.card-img {
+    border-radius: 10px;
+    height: 250px;
+}
+
+.blogs {
+    padding: 25px 0;
+    background: #808080;
+}
+.blogs-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-footer {
+    border: none;
+}
+
+footer {
+    padding: 100px 0;
+    background-color: #778899;
+}
+
+@media(max-width: 768px) {
+    .carousel-item img {
+    height: 100%;
+}
+.navbar-brand {
+    margin-left: 10px;
+    font-size: 24px;
+}
+}
