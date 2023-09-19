@@ -45,6 +45,7 @@ a {
 .nav-item .nav-link {
     color: #C0C0C0;
     font-weight: 700;
+    font-size: 20px;
     margin-right: 10px;
 }
 
@@ -62,15 +63,10 @@ a {
 
 .carousel-item img {
     height: 93vh;
+    object-fit: cover
 }
 #about {
-    padding: 30px 0;
-}
-.about-title {
-    text-align: center;
-    font-size: 42px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    padding: 40px 0;
 }
 
 .card {
@@ -86,15 +82,20 @@ a {
 }
 
 #menu {
-    padding: 30px 0;
+    padding: 50px 0;
 }
-.menu-title {
-    color: black;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 42px;
-}
+.effect {
+    overflow: hidden;
 
+}
+.effect img {
+    transition: all 1.5s ease;
+    width: 100%;
+    height: 200px;
+}
+.effect img:hover {
+    transform: scale(1.5);
+}
 .card-footer {
     border: none;
 }
